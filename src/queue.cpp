@@ -24,15 +24,19 @@ using std::string;
  */
 template <typename T>
 void imprime(queue<T> q) {
-    cout << "Elementos da fila:" << endl;
-    while (!q.empty()) {
-        cout << q.front();
-        if (q.size() != 1) {
-            cout << ", ";
+    if (q.empty()) {
+        cout << "Elementos da fila:" << endl;
+        while (!q.empty()) {
+            cout << q.front();
+            if (q.size() != 1) {
+                cout << ", ";
+            }
+            q.pop();
         }
-        q.pop();
+        cout << endl;
+    } else {
+        cout << "Fila vazia" << endl;
     }
-    cout << endl;
 }
 
 /** @brief Funcao principal */
