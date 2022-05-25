@@ -15,8 +15,9 @@ using std::endl;
 using std::vector;
 
 /**
- * @brief Funcao generica para imprimir os elementos de um vetor
- * @param v Vetor generico
+ * @brief Função genérica para imprimir os elementos de um vetor
+ * @tparam T Tipo genérico
+ * @param v Vetor
  */
 template<typename T>
 void imprime(vector<T> v) {

@@ -1,0 +1,28 @@
+# Doxyfile 1.9.4
+# Arquivo de configuração com opções para geração de documentação
+# automática com o Doxygen (https://doxygen.nl/)
+
+# Nome do projeto
+PROJECT_NAME		= "Standard Template Library (STL) Containers"
+
+# Descrição do projeto
+PROJECT_BRIEF		= "Demonstração de containers da STL/C++"
+
+# Endereço do diretório no qual será armazenada a documentação gerada
+OUTPUT_DIRECTORY 	=
+
+# Idioma no qual a documentação será gerada
+OUTPUT_LANGUAGE 	= Brazilian
+
+# Determina se subdiretórios deverão ser pesquisados por arquivos de código fonte
+RECURSIVE 			= YES
+
+# Determina se deverá ser gerada documentação em formato de páginas Web (HTML)
+GENERATE_HTML 		= YES
+
+# Diretório no qual deverá ser armazenada a documentação em formato de páginas Web (HTML)
+HTML_OUTPUT 		= doc
+
+# Determina se deverá ser gerada documentação em formato LaTeX
+GENERATE_LATEX 		= NO
+
