@@ -4,7 +4,7 @@
  * @author	Everton Cavalcante (everton.cavalcante@ufrn.br)
  * @since	23/05/2022
  * @date	25/05/2022
- * @sa      http://www.cplusplus.com/reference/multiset/multiset/
+ * @sa      http://www.cplusplus.com/reference/set/multiset/
  */
 
 #include <iostream>
