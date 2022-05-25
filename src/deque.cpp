@@ -15,17 +15,21 @@ using std::cout;
 using std::endl;
 
 /**
- * @brief Função genérica para imprimir os elementos de uma fila
+ * @brief Função genérica para imprimir os elementos de um deque
  * @tparam T Tipo genérico
  * @param d Deque
  */
 template <typename T>
 void imprime(deque<T> d) {
-    cout << "Elementos do deque:" << endl;
-    for (deque<int>::iterator it = d.begin(); it != d.end(); ++it) {
-        cout << *it << " ";
+    if (!d.empty()) {
+        cout << "Elementos do deque:" << endl;
+        for (deque<int>::iterator it = d.begin(); it != d.end(); ++it) {
+            cout << *it << " ";
+        }
+        cout << endl;
+    } else {
+        cout << "Deque vazio" << endl;
     }
-    cout << endl;
 }
 
 /** @brief Funcao principal */
