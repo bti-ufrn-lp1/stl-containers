@@ -1,7 +1,7 @@
 # *Standard Template Library (STL) Containers*
 
 ## Sobre
-Este programa serve à demonstração dos *containers* disponibilizados pela [*Standard Template Library* (STL)](https://en.wikipedia.org/wiki/Standard_Template_Library). A STL é um subconjunto da biblioteca padrão da linguagem de programação C++ que define *containers* genéricos, objetos e funções para manipulá-los. Em essência, esses *containers* implementam tipos abstratos de dados (TADs) utilizando *templates* de classes.
+Este conjunto de programas serve à demonstração dos *containers* disponibilizados pela [*Standard Template Library* (STL)](https://en.wikipedia.org/wiki/Standard_Template_Library). A STL é um subconjunto da biblioteca padrão da linguagem de programação C++ que define *containers* genéricos, objetos e funções para manipulá-los. Em essência, esses *containers* implementam tipos abstratos de dados (TADs) utilizando *templates* de classes.
 
 ## Estrutura do repositório
 Este repositório contém um conjunto de arquivos fonte demonstrando, cada um, o uso dos *containers* e dos métodos por eles disponibilizados. Os arquivos estão organizados de acordo com a seguinte estrutura:
