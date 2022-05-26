@@ -28,14 +28,14 @@ Este repositório contém um conjunto de arquivos fonte demonstrando, cada um, o
 ```
 
 ## Requisitos
-Para a compilação e execução deste programa, os seguintes elementos devem estar devidamente instalados no ambiente de desenvolvimento:
+Para a compilação e execução dos programas, os seguintes elementos devem estar devidamente instalados no ambiente de desenvolvimento:
 
 - [Git](https://git-scm.com), como sistema de controle de versões
 - [*GNU Compiler Collection*](https://gcc.gnu.org) (a qual inclui o compilador `g++`), [`clang`](https://clang.llvm.org/) ou qualquer outro compilador para a linguagem C++
 - [*GNU Make*](https://www.gnu.org/software/make/), para a compilação via *makefile*
 - [Doxygen](https://www.doxygen.nl), para geração automática de documentação
 
-## Download, compilação e execução do programa
+## Download, compilação e execução dos programas
 No terminal do sistema operacional, insira os seguintes comandos para realizar o *download* da implementação a partir deste repositório Git e navegar para o diretório resultante:
 
 ```bash
